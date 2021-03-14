@@ -1,0 +1,80 @@
+1
+Design a class named Circle
+	properties
+	- radius
+	
+	methods 
+	- calculatePerimeter
+	- calculateArea
+
+2
+Design a class named Rectangle (ուղանկյուն)
+	properties
+	- height
+	- width
+	
+	methods 
+	- calculatePerimeter
+	- calculateArea
+
+3
+Design a class named Triangle (Եռանկյուն)
+	properties
+	- sideA
+	- sideB
+	- sideC
+	
+	methods 
+	- calculatePerimeter
+	- calculateArea
+	
+
+4
+Design a class named Point (կետ)
+	properties
+	- coordinateX
+	- coordinateY
+	
+	methods 
+	- distance()  (from 0:0 coordinate)
+	- distance(Point point) ( Overloaded method to get the distance between 2 points )
+	
+
+
+5
+Design a class named TemperatureConverter
+	methods
+	- convertFarenheitToCelsius
+	- convertFarenheitToKelvin
+	
+	- convertCelsiusToFarenheit
+	- convertCelsiusToKelvin
+	
+	- convertKelvinToFarenheit
+	- convertKelvinToCelsius
+	
+	
+6
+Design a class named DistanceConverter
+	methods
+	- convertMetersToMiles
+	- convertMilesToMeters
+
+7
+Design classes for currencies - Dram, Ruble, Dollar
+Design a class named CurrencyConverter which has methods names “convert” for each pair of currency
+convert(Dram from, Ruble to)
+convert(Dram from, Dollar to)
+convert(Dollar from, Ruble to)
+convert(Dollar from, Dram to)
+convert(Ruble from, Dram to)
+convert(Ruble from, Dollar to)
+
+8
+Design a class named Movie
+	properties
+		- title
+		- rating
+
+Create 10 movie objects in main, give them titles and random ratings in range (0 - 10) and store them in the array; 
+get the best-rated movie/movies from the array and display the title.	
